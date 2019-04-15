@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.mainTitle {
+  padding: 110px 0 65px; }
+  .mainTitle h2 {
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: -1px; }
+  .mainTitle p {
+    color: #777777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic; }
+
+.lowerTitle h3 {
+  color: #222222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -0.45px;
+  margin: 0;
+  text-transform: capitalize; }
+.lowerTitle p {
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px; }
+
+.portPhotoTitle {
+  width: 291px;
+  height: 393px;
+  background-color: #ffffff;
+  margin: 0 17px 50px; }
+  .portPhotoTitle h3 {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.45px;
+    text-transform: capitalize;
+    margin-top: 30px; }
+  .portPhotoTitle p {
+    color: #737373;
+    font-family: "Droid Serif";
+    font-size: 14px;
+    font-style: italic;
+    text-transform: capitalize; }
+
+.workersTitle h3 {
+  color: #222222;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat - Bold";
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  line-height: 50px;
+  margin-bottom: 0; }
+.workersTitle p {
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+  margin-bottom: 5px; }
+
+.borderCircImg {
+  border: solid 7px #F3F3F3;
+  border-radius: 100%; }
+
+body {
+  margin: 0 auto;
+  text-align: center; }
+
+.container {
+  max-width: 980px;
+  margin: 0 auto; }
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px; }
+  .nav .navbar {
+    z-index: 2; }
+    .nav .navbar img {
+      width: 79px;
+      height: 28px;
+      margin-right: 374px; }
+    .nav .navbar ul {
+      list-style-type: none; }
+      .nav .navbar ul li {
+        display: inline-block;
+        padding: 0 20px; }
+        .nav .navbar ul li a {
+          width: 45px;
+          height: 10px;
+          color: #fff;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 41px;
+          text-transform: uppercase;
+          text-decoration: none; }
+
+.hero {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0; }
+  .hero::after {
+    content: "";
+    background-image: url("../images/Background_Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  .hero .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 266px;
+    min-width: 480px;
+    margin-top: 100px; }
+    .hero .hero-content p {
+      text-transform: capitalize;
+      width: 600px;
+      height: 32px;
+      color: #fff;
+      font-family: "Droid Serif";
+      font-size: 40px;
+      font-style: italic;
+      letter-spacing: -1px;
+      text-align: center; }
+    .hero .hero-content h1 {
+      height: 55px;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 75px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: -1.88px;
+      text-align: center;
+      margin-bottom: 40px; }
+    .hero .hero-content a button {
+      width: 240px;
+      height: 65px;
+      background-color: #fed136;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 10px; }
+
+.services {
+  margin: 620px 0 110px; }
+  .services .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .services .container .row .item {
+      max-width: 320px;
+      padding: 0 25px; }
+
+.portfolio {
+  background-color: #f7f7f7;
+  padding-bottom: 60px; }
+  .portfolio .container .portImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+
+.AboutUs .container .verticalEvent [class*="element"] {
+  position: relative; }
+  .AboutUs .container .verticalEvent [class*="element"] [class*="desc"] {
+    position: absolute;
+    top: 0; }
+    .AboutUs .container .verticalEvent [class*="element"] [class*="desc"] h3 {
+      line-height: 25px; }
+    .AboutUs .container .verticalEvent [class*="element"] [class*="desc"] p {
+      margin-top: 5px; }
+  .AboutUs .container .verticalEvent [class*="element"] .desc-left {
+    margin-right: 65%;
+    text-align: right; }
+  .AboutUs .container .verticalEvent [class*="element"] .desc-right {
+    margin-left: 65%;
+    text-align: left; }
+.AboutUs .container .verticalEvent .fifth-element {
+  margin-bottom: 110px; }
+
+.OurTeam {
+  background-color: #f7f7f7;
+  min-height: 820px; }
+  .OurTeam .container .workers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .OurTeam .container .workers .worker {
+      padding: 0 30px 0; }
+      .OurTeam .container .workers .worker i {
+        width: 41px;
+        height: 41px;
+        padding: 10px;
+        border: 3px solid #222222;
+        background-color: #f9f9f9;
+        border-radius: 50%; }
+    .OurTeam .container .workers .descBelow {
+      max-width: 600px;
+      margin: 45px 0 110px;
+      color: #777777;
+      font-family: "Roboto Slab";
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: -0.35px; }
+
+.logos {
+  min-height: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .logos .container img {
+    padding: 18px; }
+
+.contact {
+  width: 100%;
+  min-height: 680px;
+  background-image: url("../images/BackgroundForm.png");
+  position: relative; }
+  .contact::after {
+    content: "";
+    background-image: url("../images/Map_Image.png");
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    left: 60%; }
+  .contact .container .mainTitle h2 {
+    color: #ffffff; }
+  .contact .container button {
+    color: #ffffff;
+    margin-top: 20px; }
+
+.footer {
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .footer .container .row p {
+    margin: 5px 100px 5px 5px; }
+  .footer .container .row i {
+    width: 41px;
+    height: 41px;
+    padding: 10px;
+    color: #ffffff;
+    border: 3px solid #222222;
+    background-color: #222222;
+    border-radius: 50%;
+    margin: 5px; }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .nav .navbar {
+    display: block; }
+    .nav .navbar img {
+      margin-right: 0px; }
+    .nav .navbar ul li {
+      padding: 0 10px; }
+
+  .hero-content h1 {
+    max-width: 840px; }
+  .hero-content a button {
+    margin-top: 100px; }
+
+  .services {
+    margin-top: 595px; }
+
+  .footer .container .row p {
+    margin: 5px 100px 5px 20px; } }
+@media (max-width: 767px) {
+  .nav .navbar {
+    display: block; }
+    .nav .navbar img {
+      margin-right: 0px; }
+    .nav .navbar ul {
+      padding-left: 0; }
+      .nav .navbar ul li {
+        padding: 0 10px;
+        display: block; }
+
+  .hero-content p {
+    margin-top: 40px; }
+  .hero-content h1 {
+    max-width: 700px; }
+  .hero-content a button {
+    margin-top: 110px; }
+
+  .services {
+    margin-top: 450px; }
+
+  .AboutUs .container .verticalEvent [class*="element"] {
+    position: static;
+    padding: 0 60px; }
+    .AboutUs .container .verticalEvent [class*="element"] [class*="desc"] {
+      position: static;
+      text-align: center;
+      margin: 25px auto 40px; }
+    .AboutUs .container .verticalEvent [class*="element"] .desc-left {
+      margin-right: 0; }
+    .AboutUs .container .verticalEvent [class*="element"] .desc-right {
+      margin-left: 0; }
+  .AboutUs .container .verticalEvent .verticalLine {
+    display: none; }
+
+  .footer .container .row {
+    display: block; }
+    .footer .container .row p {
+      margin: 5px; } }
+
+/*# sourceMappingURL=style.css.map */
