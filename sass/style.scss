@@ -1,17 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "mixins";
 
-@mixin flex-fit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@mixin background-fit {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 .mainTitle{
     padding: 110px 0 65px;
@@ -338,7 +328,7 @@ body {
         }
         button{
             color: #ffffff;
-            margin-top: 20px;
+            margin: 20px 0 110px;
         }
     }
 }
