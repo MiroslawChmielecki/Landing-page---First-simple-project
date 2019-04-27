@@ -84,3 +84,5 @@ typings/
 .dynamodb/
 
 .sass-cache
+
+.css.map
