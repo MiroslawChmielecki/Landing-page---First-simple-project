@@ -3,6 +3,16 @@
 @import "mixins";
 
 
+.main-hero-desc{
+            height: 55px;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 75px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 40px;
+}
 .mainTitle{
     padding: 110px 0 65px;
     h2{
@@ -158,11 +168,10 @@ body {
         @include flex-fit;
         flex-wrap: wrap;
         height: 266px;
-        min-width: 480px;
         margin-top: 100px;
             p{
                 text-transform: capitalize;
-                width: 600px;
+                 width: 600px;
                 height: 32px;
                 color: #fff;
                 font-family: "Droid Serif";
@@ -172,29 +181,18 @@ body {
                 text-align: center;
                 
             }
-            h1 {
-            height: 55px;
-            color: #fff;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 75px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: -1.88px;
-            text-align: center;
-            margin-bottom: 40px;
-            }
             a {
-            button {
-            width: 240px;
-            height: 65px;
-            background-color: #fed136;
-            color: #fff;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            text-transform: uppercase;
-            border: none;
-            border-radius: 10px;
+                button {
+                    width: 240px;
+                    height: 65px;
+                    background-color: #fed136;
+                    color: #fff;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    border: none;
+                    border-radius: 10px;
             
             }
         }
@@ -422,12 +420,13 @@ body {
         p{
             margin-top: 40px;
         }
-        h1 {
-        max-width: 700px;
+        .main-hero-desc{
+            max-width: 700px;
+            font-size: 60px;
         }
         a {
             button {
-                margin-top: 110px;
+                margin-top: 70px;
             }
         }
     }
