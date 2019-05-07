@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-.main-hero-desc {
-  height: 55px;
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 75px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 40px; }
-
 .mainTitle {
   padding: 110px 0 65px; }
   .mainTitle h2 {
@@ -147,19 +137,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    height: 266px;
-    margin-top: 100px; }
+    flex-wrap: wrap; }
     .hero .hero-content p {
       text-transform: capitalize;
       width: 600px;
-      height: 32px;
       color: #fff;
       font-family: "Droid Serif";
       font-size: 40px;
       font-style: italic;
       letter-spacing: -1px;
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 30px; }
+    .hero .hero-content h1 {
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 75px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 30px; }
     .hero .hero-content a button {
       width: 240px;
       height: 65px;
@@ -287,10 +283,12 @@ body {
     .nav .navbar ul li {
       padding: 0 10px; }
 
-  .hero-content h1 {
-    max-width: 840px; }
-  .hero-content a button {
-    margin-top: 100px; }
+  .hero .container .hero-content {
+    margin-top: 110px; }
+    .hero .container .hero-content p {
+      margin-bottom: 15px; }
+    .hero .container .hero-content h1 {
+      margin-bottom: 15px; }
 
   .services {
     margin-top: 595px; }
@@ -308,13 +306,17 @@ body {
         padding: 0 10px;
         display: block; }
 
-  .hero-content p {
-    margin-top: 40px; }
-  .hero-content .main-hero-desc {
-    max-width: 700px;
-    font-size: 60px; }
-  .hero-content a button {
-    margin-top: 70px; }
+  .hero {
+    align-items: flex-end; }
+    .hero .container {
+      max-width: 600px; }
+      .hero .container .hero-content {
+        margin-bottom: 70px; }
+        .hero .container .hero-content p {
+          margin-bottom: 10px; }
+        .hero .container .hero-content h1 {
+          font-size: 50px;
+          margin-bottom: 10px; }
 
   .services {
     margin-top: 450px; }
