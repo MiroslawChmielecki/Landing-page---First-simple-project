@@ -1,0 +1,18 @@
+.services{
+    margin: 620px 0 110px;
+    @include respond-to('medium'){
+        margin-top: 595px;
+    }
+    @include respond-to('small'){
+        margin-top: 450px;
+    }
+    .container{
+        .row{
+             @include flex-fit;
+            .item{
+                 max-width: 320px;
+                padding: 0 25px;    
+            }
+        }
+    }    
+}

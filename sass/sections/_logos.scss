@@ -1,0 +1,9 @@
+.logos{
+    min-height: 165px;
+    @include flex-fit;
+    .container{
+        img{
+            padding: 18px;
+        }
+    }
+}

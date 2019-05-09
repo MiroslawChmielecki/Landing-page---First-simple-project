@@ -1,0 +1,26 @@
+.contact{
+    width: 100%;
+    min-height: 680px;
+    background-image: url('../images/BackgroundForm.png');
+    position: relative;
+    &::after{
+        content:"";
+        background-image: url("../images/Map_Image.png");
+        width: 40%;
+        height: 80%;
+        position: absolute;
+        top: 20%;
+        left: 60%;
+    }
+    .container{
+        .mainTitle{
+            h2{
+                color: #ffffff
+            }
+        }
+        button{
+            color: #ffffff;
+            margin: 20px 0 110px;
+        }
+    }
+}

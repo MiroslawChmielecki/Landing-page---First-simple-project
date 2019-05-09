@@ -1,0 +1,56 @@
+.AboutUs{
+    .container{
+        .verticalEvent{
+            [class*="element"]{
+                position: relative;
+                @include respond-to('small'){
+                    position: static;
+                    padding: 0 60px;
+                }
+                .borderCircImg{
+                    border: solid 7px #F3F3F3;
+                    border-radius: 100%;
+                }
+                [class*="desc"]{
+                    position: absolute;
+                    top: 0;
+                    @include respond-to('small'){
+                        position: static;
+                        text-align: center;
+                        margin: 25px auto 40px;
+                    }
+                    h3{
+                        line-height: 25px;
+                    }
+                    p{
+                        margin-top: 5px;
+                    }
+                }                
+                .desc-left{
+                    margin-right: 65%;
+                    text-align: right;
+                    @include respond-to('small'){
+                        margin-right: 0;
+                        text-align: center;
+                    }
+                }
+                .desc-right{
+                    margin-left: 65%;
+                    text-align: left;
+                    @include respond-to('small'){
+                        margin-left: 0;
+                        text-align: center;
+                    }
+                }
+            }
+            .verticalLine{
+                @include respond-to('small'){
+                    display: none;
+                }
+            }
+            .fifth-element{
+                margin-bottom: 110px;
+            }
+        }
+    }
+}

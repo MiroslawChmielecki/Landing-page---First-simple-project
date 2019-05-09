@@ -1,0 +1,10 @@
+.portfolio{
+    background-color:#f7f7f7;
+    padding-bottom: 60px;
+    .container{
+        .portImages{
+            @include flex-fit;
+            flex-wrap: wrap;
+        }
+    }
+}

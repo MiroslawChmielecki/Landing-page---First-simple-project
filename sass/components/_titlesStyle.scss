@@ -1,0 +1,85 @@
+
+//Classes for titles
+.mainTitle{
+    padding: 110px 0 65px;
+    h2{
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    }
+    p{
+    color: #777777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    }
+}
+
+.lowerTitle{
+    h3{
+        color: #222222;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: -0.45px;
+        margin: 0;
+        text-transform: capitalize;
+    }
+    p{
+        color:#777777;
+        font-family: "Roboto Slab";
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -0.35px;
+    }
+}
+
+.portPhotoTitle{
+            width: 291px;
+            height: 393px;
+            background-color: #ffffff;
+            margin: 0 17px 50px;
+            
+    h3{
+        color: Night Rider;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.45px;
+        text-transform: capitalize;
+        margin-top: 30px;
+    }
+    p{
+        color: #737373;
+        font-family: "Droid Serif";
+        font-size: 14px;
+        font-style: italic;
+        text-transform: capitalize;
+    }
+}
+.workersTitle{
+    h3{
+        color: #222222;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: "Montserrat - Bold";
+        font-weight: 700;
+        letter-spacing: -0.4px;
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+    p{
+        color: #777777;
+        font-family: "Roboto Slab";
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -0.35px;
+        margin-bottom: 5px;
+    }
+}
