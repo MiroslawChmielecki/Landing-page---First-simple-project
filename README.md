@@ -1,2 +1,2 @@
-# zadanie-7.7
-https://miroslawchmielecki.github.io/zadanie-7.7/
+Link to project:
+https://miroslawchmielecki.github.io/Landing-page---first-simple-project-/
